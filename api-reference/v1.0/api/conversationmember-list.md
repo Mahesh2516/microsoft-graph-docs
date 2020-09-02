@@ -28,7 +28,7 @@ One of the following permissions is required to call this API. To learn more, in
 > [!NOTE]
 > Before calling this API with application permissions, you must request access. For details, see [Protected APIs in Microsoft Teams](/graph/teams-protected-apis).
 
-## HTTP request
+## HTTP request (Chat member info to be removed as per source)
 <!-- { "blockType": "ignored" } -->
 ```http
 GET /chats/{id}/members
