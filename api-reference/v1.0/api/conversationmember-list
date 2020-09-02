@@ -4,7 +4,7 @@ List all conversation members in a Chat or Channel
 Permission
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see Permissions.
 Permission Type | Permissions (from least to most privileged)
---------------- | ----------------
+|:--------------- | :----------------|
 Delegated (work or school account) | Chat.ReadBasic, Chat.Read, Chat.ReadWrite
 Delegated (personal Microsoft account) | Not supported.
 Application | Not supported.
@@ -16,7 +16,7 @@ Optional query parameters
 This operation does not support the OData query parameters to customize the response.
 Request headers
 Header | Value
---------------- | ----------------
+|--------------- | :----------------|
 Authorization | Bearer {token}. Required.
 Request body
 Do not supply a request body for this method.
