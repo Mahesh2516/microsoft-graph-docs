@@ -1,0 +1,10 @@
+List conversationMember
+[INCLUDE new Disclaimer]
+List all conversation members in a Chat or Channel
+Permission
+One of the following permissions is required to call this API. To learn more, including how to choose permissions, see Permissions.
+Permission Type | Permissions (from least to most privileged)
+--------------- | ----------------
+Delegated (work or school account) | Chat.ReadBasic, Chat.Read, Chat.ReadWrite
+Delegated (personal Microsoft account) | Not supported.
+Application | Not supported.
