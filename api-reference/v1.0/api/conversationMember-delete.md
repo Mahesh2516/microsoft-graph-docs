@@ -11,7 +11,7 @@ ms.prod: "microsoft-teams"
 
 Namespace: microsoft.graph
 
-[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
+[!INCLUDE [V1.0-disclaimer](../../includes/V1.0-disclaimer.md)]
 
 Delete a [conversationMember](../resources/conversationmember.md) from a [channel](../resources/channel.md).
 
@@ -60,7 +60,7 @@ Here is an example of the request.
   "name": "delete_conversation_member"
 } -->
 ```http
-DELETE https://graph.microsoft.com/beta/teams/{id}/channels/{id}/members/{id}
+DELETE https://graph.microsoft.com/V1.0/teams/{id}/channels/{id}/members/{id}
 ```
 # [C#](#tab/csharp)
 [!INCLUDE [sample-code](../includes/snippets/csharp/delete-conversation-member-csharp-snippets.md)]
