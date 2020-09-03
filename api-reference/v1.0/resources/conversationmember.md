@@ -16,6 +16,18 @@ Namespace: microsoft.graph
 Represents a user in a [team](team.md).
 See also [aadUserConversationMember](aaduserconversationmember.md).
 
+## Methods
+
+| Method | Return Type | Description |
+|:---------------|:--------|:----------|
+|List Chat members|conversationMember collection|Get the list of all users in the chat.|
+|Get Chat member|conversationMember|Get a single user in the chat.|
+|[List members](conversationMember-list.md)|[conversationMember](conversationMember.md) collection|Get the list of all users in the chat or channel.|
+|[Get member](conversationMember-get.md)|[conversationMember](conversationMember.md)|Get a single user in the chat or channel.|
+|[Add member](conversationMember-Add.md)|[conversationMember](conversationMember.md)|Add a member to a channel.|
+|[Update member](conversationMember-update.md)|[conversationMember](conversationMember.md)|Update a member in the channel.|
+|[Delete member](conversationMember.delete.md)|[conversationMember](conversationMember.md)|Delete a member from the channel.|
+
 ## Properties
 
 | Property   | Type |Description|
