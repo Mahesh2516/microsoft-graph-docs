@@ -20,7 +20,7 @@ See also [aadUserConversationMember](aaduserconversationmember.md).
 
 | Method | Return Type | Description |
 |:---------------|:--------|:----------|
-|[List members](conversationMember-list.md)|[conversationMember](conversationMember.md) collection|Get the list of all users in the chat or channel.|
+|[List members](../Draftbr1-APIreference-v1.0-1/api-reference/v1.0/api/conversationmember-list.md)|[conversationMember](conversationMember.md) collection|Get the list of all users in the chat or channel.|
 |[Get member](conversationMember-get.md)|[conversationMember](conversationMember.md)|Get a single user in the chat or channel.|
 |[Add member](conversationMember-Add.md)|[conversationMember](conversationMember.md)|Add a member to a channel.|
 |[Update member](conversationMember-update.md)|[conversationMember](conversationMember.md)|Update a member in the channel.|
