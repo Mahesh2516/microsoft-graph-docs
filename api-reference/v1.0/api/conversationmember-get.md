@@ -68,7 +68,7 @@ Here is an example of the request.
   "name": "get_conversation_member"
 }-->
 ```msgraph-interactive
-GET https://graph.microsoft.com/beta/chats/{id}/members/{id}
+GET https://graph.microsoft.com/V1.0/chats/{id}/members/{id}
 ```
 # [C#](#tab/csharp)
 [!INCLUDE [sample-code](../includes/snippets/csharp/get-conversation-member-csharp-snippets.md)]
