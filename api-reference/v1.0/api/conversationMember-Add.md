@@ -11,7 +11,7 @@ ms.prod: "microsoft-teams"
 
 Namespace: microsoft.graph
 
-[!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
+[!INCLUDE [V1.0-disclaimer](../../includes/V1.0-disclaimer.md)]
 
 Add a [conversationMember](../resources/conversationmember.md) to a [channel](../resources/channel.md).
 
@@ -65,14 +65,14 @@ Here is an example of the request.
   "name": "create_conversation_member"
 } -->
 ```http
-POST https://graph.microsoft.com/beta/teams/{id}/channels/{id}/members/
+POST https://graph.microsoft.com/V1.0/teams/{id}/channels/{id}/members/
 content-type: application/json
 content-length: 26
 
 {
   "@odata.type": "#microsoft.graph.aadUserConversationMember",
   "roles": [],
-  "user@odata.bind": "https://graph.microsoft.com/beta/users/8b081ef6-4792-4def-b2c9-c363a1bf41d5"
+  "user@odata.bind": "https://graph.microsoft.com/V1.0/users/8b081ef6-4792-4def-b2c9-c363a1bf41d5"
 }
 ```
 # [C#](#tab/csharp)
@@ -107,7 +107,7 @@ Content-type: application/json
 Content-length: 468
 
 {
-  "@odata.context": "https://graph.microsoft.com/beta/$metadata#teams('ece6f0a1-7ca4-498b-be79-edf6c8fc4d82')/channels('19%3A56eb04e133944cf69e603c5dac2d292e%40thread.skype')/members/microsoft.graph.aadUserConversationMember/$entity",
+  "@odata.context": "https://graph.microsoft.com/V1.0/$metadata#teams('ece6f0a1-7ca4-498b-be79-edf6c8fc4d82')/channels('19%3A56eb04e133944cf69e603c5dac2d292e%40thread.skype')/members/microsoft.graph.aadUserConversationMember/$entity",
   "@odata.type": "#microsoft.graph.aadUserConversationMember",
   "id": "8b081ef6-4792-4def-b2c9-c363a1bf41d5",
   "roles": [],
