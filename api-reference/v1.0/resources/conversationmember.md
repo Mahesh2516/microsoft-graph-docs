@@ -20,8 +20,6 @@ See also [aadUserConversationMember](aaduserconversationmember.md).
 
 | Method | Return Type | Description |
 |:---------------|:--------|:----------|
-|List Chat members|conversationMember collection|Get the list of all users in the chat.|
-|Get Chat member|conversationMember|Get a single user in the chat.|
 |[List members](conversationMember-list.md)|[conversationMember](conversationMember.md) collection|Get the list of all users in the chat or channel.|
 |[Get member](conversationMember-get.md)|[conversationMember](conversationMember.md)|Get a single user in the chat or channel.|
 |[Add member](conversationMember-Add.md)|[conversationMember](conversationMember.md)|Add a member to a channel.|
